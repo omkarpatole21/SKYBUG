@@ -7,7 +7,7 @@ class BankAccount {
         balance = initialBalance;
     }
 
-    public double getBalance() {
+    public double checkBalance() {
         return balance;
     }
 
@@ -52,7 +52,7 @@ class ATM {
 
             switch (choice) {
                 case 1:
-                    System.out.println("Your balance is: Rs. " + account.getBalance());
+                    System.out.println("Your balance is: Rs. " + account.checkBalance());
                     break;
                 case 2:
                     System.out.print("Enter the deposit amount: Rs. ");
